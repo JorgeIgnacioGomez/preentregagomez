@@ -128,6 +128,45 @@ body {
     }
 }
 
+@media (min-width: 1281px) {
+    body {
+        background-color: darkgray;
+    }
+    
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    body {
+        background-color: bisque;
+    }
+} 
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    body {
+        background-color: azure;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    body {
+        background-color: blueviolet;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    body {
+        background-color: aquamarine;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    body {
+        background-color: aquamarine;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
 
 
 
