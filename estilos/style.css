@@ -64,12 +64,21 @@ body {
     #f9a852,
     #c26b2e,
     #f38654,
-    #f07654,
+    #b4b213,
     #e2311a,
     #ef5956,
     #ee4c58
 );
 }
+
+.formu {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 200px;
+    margin-top: 10px;
+}
+
 
 .veloz {
     animation: Veloz 1s infinite;
@@ -92,12 +101,30 @@ body {
     }
 }
 
-@media (min-width:320px) and (max-width:640px) para mobile
+@media (min-width:320px) and (max-width:640px){
+    body{
+        width: 100%;
+        height: 100%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+}
 
 
 
-@media (min-width:641px) and (max-width:920px) para tablet
+@media (min-width:641px) and (max-width:920px){
+    body{
+        width: 100%;
+        height: 100%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+}
 
 
 
-@media (min-width:921px) para escritorio
+@media (min-width:921px){
+    body{
+        width: 100%;
+        height: 100%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+}
