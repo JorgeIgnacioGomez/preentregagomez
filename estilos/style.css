@@ -18,6 +18,7 @@
 
 .display-2 {
     font-weight: 200;
+    width: 100%;
 }
 
 .btn-primary:hover {
@@ -28,36 +29,41 @@
 }
 ::content {
     padding: 0 3rem;
+    width: 100%
 }
 
 .forma {
     margin-top: 37px;
     padding-top: 27px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .btn-content {
     padding: 1.2rem 1.5rem;
     display: inline-block;
+    width: 100%;
 }
 
-#hero-big {
-    background-image: url(/img/gordon-williams-4lwLYPsh02A-unsplash.jpg)
+#hero{
     height: 100%;
     width: 100%;
+    margin: 0 auto;
+    width: 300px;
 }
 
 .footer {
     position:fixed;
     bottom: 0;
-    height: 18%;
+    height: 20%;
     font-size: 14px;
     width: 90%;
+    margin: 0 auto;
 }
 
 
 body {
-    background-color: rgb(0, 0, 0);
-    font-family: "lato", sans-serif;
     width: 100%;
     background-image: linear-gradient(to right, 
     #ffa514,
@@ -72,14 +78,12 @@ body {
 }
 
 .formu {
-    display:flex;
-    justify-content: center;
+    width: 100%;
     align-items: center;
     line-height: 200px;
-    margin-top: 10px;
-    align-items: center;
-}
+    display: flex;
 
+}
 
 .veloz {
     animation: Veloz 1s infinite;
